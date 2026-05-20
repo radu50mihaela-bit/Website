@@ -1,0 +1,77 @@
+/* Responsivitate */
+        @media (max-width: 768px) {
+            .nav-container { flex-direction: column; gap: 15px; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .hero-content h1 { font-size: 28px; }
+            .image-placeholder { height: 250px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navigație -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">FASHION<span>ECOSYSTEM</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#istorie">Istorie</a></li>
+                    <li><a href="#ai-tech">AI & Tech</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#structura">Cursuri</a></li>
+                    <li><a href="#monetizare">Monetizare</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Zona Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>De la Corset la Cod</h1>
+            <p>Platforma completă pentru înțelegerea istoriei, tehnologiei și strategiilor de business din spatele ecosistemului global de modă.</p>
+            <a href="#structura" class="btn-gold">Explorează Modulele</a>
+        </div>
+    </section>
+
+    <!-- 1. Istoria și Evoluția Modei -->
+    <section id="istorie" class="container">
+        <h2 class="section-title">1. Istoria și Evoluția Modei</h2>
+        <div class="grid-2">
+            <div>
+                <p style="font-size: 18px; margin-bottom: 20px; font-weight: 300;">Evoluția Modei ca Oglindă Socială</p>
+                <p>Explorăm tranziția de la opulența și constrângerile fizice ale secolului al XIX-lea, la minimalismul eliberator al anilor '90 și inovația tehnologică structurală de astăzi. Istoria modei nu este doar despre haine; ea reprezintă dinamica schimbărilor sociale, economice și politice ale fiecărei epoci.</p>
+            </div>
+            <!-- Infografic Interactiv / Axa timpului -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">Secolul XIX (Opulență)</div>
+                    <p>Siluete exagerate, corsete rigide și straturi masive de materiale ce reflectau statutul social aristocratic.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Anii '90 (Minimalism)</div>
+                    <p>Deconstrucție, linii curate, estetică anti-fashion și haine simple (Denim, slip dresses, culori neutre).</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Prezent (Inovație)</div>
+                    <p>Fuziunea dintre haine fizice și tehnologie purtabilă. Accent masiv pe sustenabilitate structurală.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <!-- Placeholder Imagine Capitale -->
+            <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80');">
+                <div class="image-caption">Capitale: Turnul Eiffel la amurg</div>
+            </div>
+            <!-- Placeholder Imagine Textile -->
+            <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80');">
+                <div class="image-caption">Textile: Texturi macro - catifea & mătase</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Viitorul: AI & Fashion Tech -->
+    <section id="ai-tech" style="background-color: var(--midnight-black); padding: 20px 0;">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--off-white);">2. Viitorul: AI & Fashion Tech</h2>
